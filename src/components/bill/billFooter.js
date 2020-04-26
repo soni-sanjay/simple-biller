@@ -13,12 +13,13 @@ const BillFooter = () => {
                         Contact:- {Proprieter.Contact}
                     </div>
                     <div className='col-sm-9'>
-                        <div>Address:- {Proprieter.AddressLine1}, {Proprieter.AddressLine2}
+                        <div>Address:- {Proprieter.AddressLine1}
                         </div>
+                        <div>{Proprieter.AddressLine2}</div>
                         <div> {Proprieter.AddressLine3}</div>
                     </div>
                     <div className='col-sm-3' style={{ textAlign: "center" }}>
-                        ------------------
+                        _____________________
                                 </div>
                     <div className='col-sm-9'>
                         Pincode:- {Proprieter.Pincode}

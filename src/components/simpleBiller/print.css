@@ -196,8 +196,13 @@
   
     .printable {
       text-align: center;
+      overflow: visible !important;
     }
     input{
       border:none;
     }
+  }
+  .printable {
+    overflow-y: scroll;
+    height:250px;
   }

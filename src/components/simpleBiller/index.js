@@ -4,12 +4,11 @@ import PrintButton from './printButton'
 import GrandTotalSticky from './grandTotalSticky'
 import './index.css'
 import './print.css'
-import AddDeleteRowButton from './deleteRowButton'
 import HeaderInputs from './headerInputs'
 import DataInputs from './dataInputs'
 import RowSet, { DataGroup } from '../../modules/table/printableRows'
-import AddRowButton from './addRowButton'
-import DeleteRowButton from './deleteRowButton'
+import AddRowButton from '../button/addRowButton'
+import DeleteRowButton from '../button/deleteRowButton'
 
 export default class SimpleBiller extends Component {
     constructor(props) {

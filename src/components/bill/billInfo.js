@@ -16,7 +16,7 @@ const BillInfo = ({ billInfo }) => {
     }
     return (
         <div className="resp-table-row" style={fontStyle}>
-            <div className="table-body-cell pr-1 pl-1">
+            <div className="table-body-cell pb-2 pr-1 pl-1">
                 <div className="row">
                     <div className='col-sm-3' >{labels.cName}
                     </div>

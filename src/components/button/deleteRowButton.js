@@ -1,5 +1,4 @@
 import React from 'react';
-import Row from '../../modules/table/printableRow';
 import Button from './button';
 
 const DeleteRowButton = ({ rowSet, modifyTableEventListener }) => {
